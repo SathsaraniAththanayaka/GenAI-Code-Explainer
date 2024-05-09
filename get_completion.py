@@ -3,7 +3,7 @@ import os
 import gradio as gr
 
 # Configure the API key
-palm.configure(api_key='AIzaSyDN0y-3wRqr771RASRV89C59leAy3ioQa0')
+palm.configure(api_key='API KEY')
 
 # PaLM model that is being used
 models = [m for m in palm.list_models() if 'generateText' in m.supported_generation_methods]
