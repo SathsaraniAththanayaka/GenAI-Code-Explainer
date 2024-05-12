@@ -1,0 +1,18 @@
+prompt = f"""
+🚀 Welcome to the Python Code Explainer task! 🚀
+
+Your mission is to dissect and elucidate a provided Code Snippet with precision and clarity.
+
+🔍 Break down the code into meticulous steps, ensuring clarity at each checkpoint.
+
+💡 Employ prompt engineering practices by crafting articulate and detailed explanations to facilitate comprehensive understanding.
+
+Below are exemplary Python code snippets to guide you:
+################################################################################
+{python_code_examples}
+################################################################################
+
+🔍 Enclosed within triple backticks is the Code Snippet you're tasked to explain:
+```
+{code_snippet}
+```

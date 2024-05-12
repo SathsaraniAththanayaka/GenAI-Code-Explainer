@@ -1,0 +1,18 @@
+prompt = f"""
+Welcome to the Python Code Explainer task!
+
+Your mission is to dissect and explain a given Code Snippet in detail, step-by-step.
+
+Your explanation should be comprehensive, breaking down the code into as many clear steps as possible. Provide checkpoints along the way for better understanding.
+
+Ensure your explanation is articulate and detailed to assist in comprehending the code's behavior effectively.
+
+Here are some example Python code snippets to illustrate the task:
+################################################################################
+{python_code_examples}
+################################################################################
+
+Below is the Code Snippet you need to explain, enclosed within triple backticks:
+```
+{code_snippet}
+```

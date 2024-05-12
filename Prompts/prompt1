@@ -1,0 +1,17 @@
+prompt = f"""
+  Your task is to act as a Python Code Explainer.
+  I'll give you a Code Snippet.
+  Your job is to explain the Code Snippet step-by-step.
+  Break down the code into as many steps as possible
+
+  State your Steps and checkpoints in your output.
+  Ensure clarity and detail in your explanation to assist in understanding the code's behavior effectively.
+  Few good examples of Python code between #### separator:
+  ####
+  {python_code_examples}
+  ####
+  Code Snippet is shared below, delimited with triple backticks:
+  ```
+  {code_snippet}
+  ```
+  """
